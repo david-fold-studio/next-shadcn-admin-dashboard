@@ -6,13 +6,13 @@ export function SupportCard() {
   return (
     <Card size="sm" className="overflow-hidden shadow-none group-data-[collapsible=icon]:hidden">
       <CardHeader className="min-w-0 px-4">
-        <CardTitle className="truncate text-sm">Need help?</CardTitle>
+        <CardTitle className="truncate text-sm">Running Swish</CardTitle>
         <CardDescription className="line-clamp-3">
-          Start from the{" "}
+          Check the{" "}
           <Link href="/dashboard/crm" prefetch={false} className="text-foreground hover:underline">
             pipeline
           </Link>{" "}
-          to review deals, then open customers or tasks as you go.
+          for open quotes and jobs, then use customers or calendar for the day’s route.
         </CardDescription>
       </CardHeader>
     </Card>

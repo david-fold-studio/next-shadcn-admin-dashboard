@@ -3,11 +3,12 @@ import packageJson from "../../package.json";
 const currentYear = new Date().getFullYear();
 
 export const APP_CONFIG = {
-  name: "Windows CRM",
+  name: "Swish",
   version: packageJson.version,
-  copyright: `© ${currentYear}, Windows CRM.`,
+  copyright: `© ${currentYear}, Swish.`,
   meta: {
-    title: "Windows CRM — Customer relationships, simplified",
-    description: "Windows CRM helps you track customers, deals, tasks, and follow-ups in one clear workspace.",
+    title: "Swish — Window washing & exterior cleaning CRM",
+    description:
+      "Swish helps window washing and exterior cleaning teams track customers, quotes, jobs, and follow-ups in one place.",
   },
 };

@@ -3,7 +3,7 @@ import Link from "next/link";
 const includedScreens = [
   { name: "Pipeline", href: "/dashboard/crm" },
   { name: "Customers", href: "/dashboard/default" },
-  { name: "Deal board", href: "/dashboard/kanban" },
+  { name: "Job board", href: "/dashboard/kanban" },
   { name: "Tasks", href: "/dashboard/tasks" },
   { name: "Calendar", href: "/dashboard/calendar" },
   { name: "Invoices", href: "/dashboard/invoice" },
@@ -25,21 +25,22 @@ export function Overview() {
           <div className="flex flex-col gap-4">
             <p className="font-medium text-muted-foreground text-xs">About</p>
             <h2 className="text-pretty text-xl leading-7 tracking-tight" id="overview-title">
-              Windows CRM turns a polished admin workspace into a practical place to manage customers and deals.
+              Swish is built for window washing and exterior cleaning crews who need clear quotes, jobs, and customer
+              follow-ups.
             </h2>
           </div>
 
           <div className="flex flex-col gap-4">
             <p className="font-medium text-muted-foreground text-xs">Make it yours</p>
             <p className="text-muted-foreground text-sm leading-6">
-              Start with the pipeline view, then customize themes, layout, and screens to match how your team works.
+              Start with the pipeline, then tune themes and layout so the whole team can run the day from one place.
             </p>
           </div>
         </div>
 
         <div className="grid grid-cols-2 gap-6 sm:gap-10">
           <div className="flex flex-col gap-4">
-            <h3 className="font-medium text-muted-foreground text-xs">CRM screens</h3>
+            <h3 className="font-medium text-muted-foreground text-xs">Key screens</h3>
             <ul className="flex flex-col gap-1 text-sm">
               {includedScreens.map((screen) => (
                 <li key={screen.name}>

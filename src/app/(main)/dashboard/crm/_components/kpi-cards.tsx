@@ -7,23 +7,23 @@ export function KpiCards() {
   return (
     <section className="space-y-5">
       <div className="space-y-1">
-        <h2 className="text-3xl tracking-tight">Pipeline Overview</h2>
+        <h2 className="text-3xl tracking-tight">Swish pipeline</h2>
         <p className="text-muted-foreground text-sm">
-          Keep tabs on lead quality, open opportunities, and conversion rates across the current sales cycle.
+          See open window washing and exterior cleaning work — from new inquiries to booked jobs.
         </p>
       </div>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
         <Card>
           <CardHeader>
-            <CardDescription>Lead Pipeline Value</CardDescription>
+            <CardDescription>Open quote value</CardDescription>
             <CardAction>
               <ArrowUpRight className="size-4" />
             </CardAction>
           </CardHeader>
           <CardContent className="space-y-2">
             <div className="flex items-center gap-3">
-              <span className="text-3xl leading-none tracking-tight">$284,500</span>
+              <span className="text-3xl leading-none tracking-tight">$48,260</span>
 
               <Badge
                 variant="outline"
@@ -34,7 +34,7 @@ export function KpiCards() {
               </Badge>
             </div>
             <p className="text-sm">
-              <span className="font-medium text-foreground">$254,200</span>{" "}
+              <span className="font-medium text-foreground">$43,100</span>{" "}
               <span className="text-muted-foreground">last month</span>
             </p>
           </CardContent>
@@ -42,14 +42,14 @@ export function KpiCards() {
 
         <Card>
           <CardHeader>
-            <CardDescription>Qualified Lead Rate</CardDescription>
+            <CardDescription>Quote acceptance</CardDescription>
             <CardAction>
               <ArrowUpRight className="size-4" />
             </CardAction>
           </CardHeader>
           <CardContent className="space-y-2">
             <div className="flex items-center gap-3">
-              <span className="text-3xl leading-none tracking-tight">28.4%</span>
+              <span className="text-3xl leading-none tracking-tight">61%</span>
 
               <Badge variant="outline" className="border-destructive/20 bg-destructive/10 text-destructive">
                 <TrendingDown />
@@ -57,7 +57,7 @@ export function KpiCards() {
               </Badge>
             </div>
             <p className="text-sm">
-              <span className="font-medium text-foreground">30.9%</span>{" "}
+              <span className="font-medium text-foreground">63.5%</span>{" "}
               <span className="text-muted-foreground">last month</span>
             </p>
           </CardContent>
@@ -65,7 +65,7 @@ export function KpiCards() {
 
         <Card>
           <CardHeader>
-            <CardDescription>Open Opportunities</CardDescription>
+            <CardDescription>Jobs in pipeline</CardDescription>
             <CardAction>
               <ArrowUpRight className="size-4" />
             </CardAction>
@@ -91,14 +91,14 @@ export function KpiCards() {
 
         <Card>
           <CardHeader>
-            <CardDescription>Lead-to-Deal Rate</CardDescription>
+            <CardDescription>Inquiry-to-booked</CardDescription>
             <CardAction>
               <ArrowUpRight className="size-4" />
             </CardAction>
           </CardHeader>
           <CardContent className="space-y-2">
             <div className="flex items-center gap-3">
-              <span className="text-3xl leading-none tracking-tight">18.1%</span>
+              <span className="text-3xl leading-none tracking-tight">38%</span>
 
               <Badge
                 variant="outline"
@@ -109,7 +109,7 @@ export function KpiCards() {
               </Badge>
             </div>
             <p className="text-sm">
-              <span className="font-medium text-foreground">16.5%</span>{" "}
+              <span className="font-medium text-foreground">36.4%</span>{" "}
               <span className="text-muted-foreground">last month</span>
             </p>
           </CardContent>

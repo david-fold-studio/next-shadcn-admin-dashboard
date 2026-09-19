@@ -65,7 +65,7 @@ export interface NavGroup {
 export const sidebarItems: NavGroup[] = [
   {
     id: 1,
-    label: "CRM",
+    label: "Swish",
     items: [
       {
         id: "crm",
@@ -81,7 +81,7 @@ export const sidebarItems: NavGroup[] = [
       },
       {
         id: "kanban",
-        title: "Deal board",
+        title: "Job board",
         url: "/dashboard/kanban",
         icon: Kanban,
       },

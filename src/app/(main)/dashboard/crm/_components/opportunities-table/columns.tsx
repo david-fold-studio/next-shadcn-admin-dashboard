@@ -72,7 +72,7 @@ export const opportunitiesColumns: ColumnDef<DataTableFeatures, OpportunityRow>[
   },
   {
     accessorKey: "account",
-    header: "Account",
+    header: "Customer / job",
     cell: ({ row }) => <div className="font-medium text-sm">{row.original.account}</div>,
   },
   {
@@ -125,7 +125,7 @@ export const opportunitiesColumns: ColumnDef<DataTableFeatures, OpportunityRow>[
           className="size-8 rounded-full text-muted-foreground hover:bg-transparent focus-visible:bg-transparent"
         >
           <Pencil />
-          <span className="sr-only">Edit opportunity</span>
+          <span className="sr-only">Edit job</span>
         </Button>
       </div>
     ),

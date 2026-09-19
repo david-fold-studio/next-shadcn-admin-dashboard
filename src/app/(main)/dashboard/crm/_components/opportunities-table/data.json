@@ -1,1058 +1,1058 @@
 [
   {
-    "id": "OP-1842",
-    "account": "Asteron Bioworks",
-    "stage": "Proposal Sent",
+    "id": "SW-2400",
+    "account": "Harborview Condos — Window washing",
+    "stage": "Inquiry",
     "priority": 1,
     "health": "On Track",
-    "value": "$42,000"
+    "value": "$180"
   },
   {
-    "id": "OP-1841",
-    "account": "BlueHaven Systems",
-    "stage": "Discovery",
+    "id": "SW-2399",
+    "account": "Maple Street Residence — Exterior wash",
+    "stage": "Site Visit",
+    "priority": 2,
+    "health": "Needs Review",
+    "value": "$420"
+  },
+  {
+    "id": "SW-2398",
+    "account": "Cedar Ridge HOA — Storefront glass",
+    "stage": "Quote Sent",
+    "priority": 3,
+    "health": "At Risk",
+    "value": "$640"
+  },
+  {
+    "id": "SW-2397",
+    "account": "Brightline Offices — Gutter clean + windows",
+    "stage": "Scheduled",
     "priority": 1,
     "health": "On Hold",
-    "value": "$18,500"
+    "value": "$570"
   },
   {
-    "id": "OP-1840",
-    "account": "Cinder Health",
-    "stage": "Negotiation",
+    "id": "SW-2396",
+    "account": "Oakmont Family Home — Pressure wash",
+    "stage": "Inquiry",
+    "priority": 2,
+    "health": "On Track",
+    "value": "$300"
+  },
+  {
+    "id": "SW-2395",
+    "account": "Lakeside Cafe — Solar panel rinse",
+    "stage": "Site Visit",
+    "priority": 3,
+    "health": "Needs Review",
+    "value": "$810"
+  },
+  {
+    "id": "SW-2394",
+    "account": "Pinecrest Apartments — High-rise windows",
+    "stage": "Quote Sent",
     "priority": 1,
     "health": "At Risk",
-    "value": "$63,000"
+    "value": "$1,030"
   },
   {
-    "id": "OP-1839",
-    "account": "Drift Manufacturing",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$26,400"
+    "id": "SW-2393",
+    "account": "Summit Dental Clinic — Patio & siding clean",
+    "stage": "Scheduled",
+    "priority": 2,
+    "health": "On Hold",
+    "value": "$960"
   },
   {
-    "id": "OP-1838",
-    "account": "Everline Freight",
-    "stage": "Proposal Sent",
+    "id": "SW-2392",
+    "account": "Westbrook Estate — Window washing",
+    "stage": "Inquiry",
+    "priority": 3,
+    "health": "On Track",
+    "value": "$420"
+  },
+  {
+    "id": "SW-2391",
+    "account": "Riverfront Lofts — Exterior wash",
+    "stage": "Site Visit",
     "priority": 1,
     "health": "Needs Review",
-    "value": "$58,900"
+    "value": "$530"
   },
   {
-    "id": "OP-1837",
-    "account": "Fieldstone Capital",
-    "stage": "Discovery",
+    "id": "SW-2390",
+    "account": "Sunnyvale Townhomes — Storefront glass",
+    "stage": "Quote Sent",
+    "priority": 2,
+    "health": "At Risk",
+    "value": "$1,420"
+  },
+  {
+    "id": "SW-2389",
+    "account": "Northgate Plaza — Gutter clean + windows",
+    "stage": "Scheduled",
+    "priority": 3,
+    "health": "On Hold",
+    "value": "$1,350"
+  },
+  {
+    "id": "SW-2388",
+    "account": "Elm Court Bungalow — Pressure wash",
+    "stage": "Inquiry",
     "priority": 1,
     "health": "On Track",
-    "value": "$31,200"
+    "value": "$260"
   },
   {
-    "id": "OP-1836",
-    "account": "Granite Studios",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$15,600"
+    "id": "SW-2387",
+    "account": "Glasshouse Gallery — Solar panel rinse",
+    "stage": "Site Visit",
+    "priority": 2,
+    "health": "Needs Review",
+    "value": "$920"
   },
   {
-    "id": "OP-1835",
-    "account": "Halcyon Dynamics",
-    "stage": "Qualified",
+    "id": "SW-2386",
+    "account": "Bayfront Suites — High-rise windows",
+    "stage": "Quote Sent",
+    "priority": 3,
+    "health": "At Risk",
+    "value": "$1,810"
+  },
+  {
+    "id": "SW-2385",
+    "account": "Willow Park School — Patio & siding clean",
+    "stage": "Scheduled",
     "priority": 1,
     "health": "On Hold",
-    "value": "$47,900"
+    "value": "$1,740"
   },
   {
-    "id": "OP-1834",
-    "account": "Ironcrest Ventures",
-    "stage": "Proposal Sent",
+    "id": "SW-2384",
+    "account": "Cornerstone Church — Window washing",
+    "stage": "Inquiry",
+    "priority": 2,
+    "health": "On Track",
+    "value": "$380"
+  },
+  {
+    "id": "SW-2383",
+    "account": "Skyline Towers — Exterior wash",
+    "stage": "Site Visit",
+    "priority": 3,
+    "health": "Needs Review",
+    "value": "$650"
+  },
+  {
+    "id": "SW-2382",
+    "account": "Greenfield Farmhouse — Storefront glass",
+    "stage": "Quote Sent",
     "priority": 1,
     "health": "At Risk",
-    "value": "$52,400"
+    "value": "$2,200"
   },
   {
-    "id": "OP-1833",
-    "account": "Juniper Infrastructure",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$22,800"
+    "id": "SW-2381",
+    "account": "Dockside Marina — Gutter clean + windows",
+    "stage": "Scheduled",
+    "priority": 2,
+    "health": "On Hold",
+    "value": "$550"
   },
   {
-    "id": "OP-1832",
-    "account": "Kestrel Commerce",
-    "stage": "Negotiation",
+    "id": "SW-2380",
+    "account": "Hillcrest Villa — Pressure wash",
+    "stage": "Inquiry",
+    "priority": 3,
+    "health": "On Track",
+    "value": "$230"
+  },
+  {
+    "id": "SW-2379",
+    "account": "Parkside Clinic — Solar panel rinse",
+    "stage": "Site Visit",
     "priority": 1,
     "health": "Needs Review",
-    "value": "$19,300"
+    "value": "$380"
   },
   {
-    "id": "OP-1831",
-    "account": "Lattice Clinical",
-    "stage": "Qualified",
+    "id": "SW-2378",
+    "account": "Ashford Manor — High-rise windows",
+    "stage": "Quote Sent",
+    "priority": 2,
+    "health": "At Risk",
+    "value": "$630"
+  },
+  {
+    "id": "SW-2377",
+    "account": "City Center Retail — Patio & siding clean",
+    "stage": "Scheduled",
+    "priority": 3,
+    "health": "On Hold",
+    "value": "$940"
+  },
+  {
+    "id": "SW-2376",
+    "account": "Meadowbrook Home — Window washing",
+    "stage": "Inquiry",
     "priority": 1,
     "health": "On Track",
-    "value": "$68,500"
+    "value": "$350"
   },
   {
-    "id": "OP-1830",
-    "account": "Mariner Foods",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$36,100"
+    "id": "SW-2375",
+    "account": "Lantern Inn — Exterior wash",
+    "stage": "Site Visit",
+    "priority": 2,
+    "health": "Needs Review",
+    "value": "$770"
   },
   {
-    "id": "OP-1829",
-    "account": "Northfield Energy",
-    "stage": "Discovery",
+    "id": "SW-2374",
+    "account": "Copper Ridge HOA — Storefront glass",
+    "stage": "Quote Sent",
+    "priority": 3,
+    "health": "At Risk",
+    "value": "$1,020"
+  },
+  {
+    "id": "SW-2373",
+    "account": "Foothill Residence — Gutter clean + windows",
+    "stage": "Scheduled",
     "priority": 1,
     "health": "On Hold",
-    "value": "$27,400"
+    "value": "$1,330"
   },
   {
-    "id": "OP-1828",
-    "account": "Oakwell Networks",
-    "stage": "Negotiation",
+    "id": "SW-2372",
+    "account": "Seaside Bungalows — Pressure wash",
+    "stage": "Inquiry",
+    "priority": 2,
+    "health": "On Track",
+    "value": "$200"
+  },
+  {
+    "id": "SW-2371",
+    "account": "Crestview Offices — Solar panel rinse",
+    "stage": "Site Visit",
+    "priority": 3,
+    "health": "Needs Review",
+    "value": "$490"
+  },
+  {
+    "id": "SW-2370",
+    "account": "Harborview Condos — High-rise windows",
+    "stage": "Quote Sent",
     "priority": 1,
     "health": "At Risk",
-    "value": "$24,700"
+    "value": "$1,410"
   },
   {
-    "id": "OP-1827",
-    "account": "Palisade Software",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$33,400"
+    "id": "SW-2369",
+    "account": "Maple Street Residence — Patio & siding clean",
+    "stage": "Scheduled",
+    "priority": 2,
+    "health": "On Hold",
+    "value": "$1,720"
   },
   {
-    "id": "OP-1826",
-    "account": "Quarry Aerospace",
-    "stage": "Proposal Sent",
+    "id": "SW-2368",
+    "account": "Cedar Ridge HOA — Window washing",
+    "stage": "Inquiry",
+    "priority": 3,
+    "health": "On Track",
+    "value": "$310"
+  },
+  {
+    "id": "SW-2367",
+    "account": "Brightline Offices — Exterior wash",
+    "stage": "Site Visit",
     "priority": 1,
     "health": "Needs Review",
-    "value": "$71,800"
+    "value": "$880"
   },
   {
-    "id": "OP-1825",
-    "account": "Redwood Devices",
-    "stage": "Discovery",
+    "id": "SW-2366",
+    "account": "Oakmont Family Home — Storefront glass",
+    "stage": "Quote Sent",
+    "priority": 2,
+    "health": "At Risk",
+    "value": "$1,800"
+  },
+  {
+    "id": "SW-2365",
+    "account": "Lakeside Cafe — Gutter clean + windows",
+    "stage": "Scheduled",
+    "priority": 3,
+    "health": "On Hold",
+    "value": "$540"
+  },
+  {
+    "id": "SW-2364",
+    "account": "Pinecrest Apartments — Pressure wash",
+    "stage": "Inquiry",
     "priority": 1,
     "health": "On Track",
-    "value": "$29,200"
+    "value": "$430"
   },
   {
-    "id": "OP-1824",
-    "account": "Silverline Research",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$44,800"
+    "id": "SW-2363",
+    "account": "Summit Dental Clinic — Solar panel rinse",
+    "stage": "Site Visit",
+    "priority": 2,
+    "health": "Needs Review",
+    "value": "$610"
   },
   {
-    "id": "OP-1823",
-    "account": "TrueNorth Services",
-    "stage": "Qualified",
+    "id": "SW-2362",
+    "account": "Westbrook Estate — High-rise windows",
+    "stage": "Quote Sent",
+    "priority": 3,
+    "health": "At Risk",
+    "value": "$2,190"
+  },
+  {
+    "id": "SW-2361",
+    "account": "Riverfront Lofts — Patio & siding clean",
+    "stage": "Scheduled",
     "priority": 1,
     "health": "On Hold",
-    "value": "$38,100"
+    "value": "$920"
   },
   {
-    "id": "OP-1822",
-    "account": "Union Operations",
-    "stage": "Proposal Sent",
+    "id": "SW-2360",
+    "account": "Sunnyvale Townhomes — Window washing",
+    "stage": "Inquiry",
+    "priority": 2,
+    "health": "On Track",
+    "value": "$280"
+  },
+  {
+    "id": "SW-2359",
+    "account": "Northgate Plaza — Exterior wash",
+    "stage": "Site Visit",
+    "priority": 3,
+    "health": "Needs Review",
+    "value": "$340"
+  },
+  {
+    "id": "SW-2358",
+    "account": "Elm Court Bungalow — Storefront glass",
+    "stage": "Quote Sent",
     "priority": 1,
     "health": "At Risk",
-    "value": "$26,750"
+    "value": "$620"
   },
   {
-    "id": "OP-1821",
-    "account": "Vale Design",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$54,900"
+    "id": "SW-2357",
+    "account": "Glasshouse Gallery — Gutter clean + windows",
+    "stage": "Scheduled",
+    "priority": 2,
+    "health": "On Hold",
+    "value": "$1,310"
   },
   {
-    "id": "OP-1820",
-    "account": "Westbridge Logistics",
-    "stage": "Negotiation",
+    "id": "SW-2356",
+    "account": "Bayfront Suites — Pressure wash",
+    "stage": "Inquiry",
+    "priority": 3,
+    "health": "On Track",
+    "value": "$400"
+  },
+  {
+    "id": "SW-2355",
+    "account": "Willow Park School — Solar panel rinse",
+    "stage": "Site Visit",
     "priority": 1,
     "health": "Needs Review",
-    "value": "$60,700"
+    "value": "$730"
   },
   {
-    "id": "OP-1819",
-    "account": "Yellowtail Analytics",
-    "stage": "Qualified",
+    "id": "SW-2354",
+    "account": "Cornerstone Church — High-rise windows",
+    "stage": "Quote Sent",
+    "priority": 2,
+    "health": "At Risk",
+    "value": "$1,010"
+  },
+  {
+    "id": "SW-2353",
+    "account": "Skyline Towers — Patio & siding clean",
+    "stage": "Scheduled",
+    "priority": 3,
+    "health": "On Hold",
+    "value": "$1,700"
+  },
+  {
+    "id": "SW-2352",
+    "account": "Greenfield Farmhouse — Window washing",
+    "stage": "Inquiry",
     "priority": 1,
     "health": "On Track",
-    "value": "$17,100"
+    "value": "$250"
   },
   {
-    "id": "OP-1818",
-    "account": "Zephyr Mobility",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$45,500"
+    "id": "SW-2351",
+    "account": "Dockside Marina — Exterior wash",
+    "stage": "Site Visit",
+    "priority": 2,
+    "health": "Needs Review",
+    "value": "$450"
   },
   {
-    "id": "OP-1817",
-    "account": "Bayshore Labs",
-    "stage": "Discovery",
+    "id": "SW-2350",
+    "account": "Hillcrest Villa — Storefront glass",
+    "stage": "Quote Sent",
+    "priority": 3,
+    "health": "At Risk",
+    "value": "$1,400"
+  },
+  {
+    "id": "SW-2349",
+    "account": "Parkside Clinic — Gutter clean + windows",
+    "stage": "Scheduled",
     "priority": 1,
     "health": "On Hold",
-    "value": "$28,600"
+    "value": "$520"
   },
   {
-    "id": "OP-1816",
-    "account": "Clearpoint Partners",
-    "stage": "Negotiation",
+    "id": "SW-2348",
+    "account": "Ashford Manor — Pressure wash",
+    "stage": "Inquiry",
+    "priority": 2,
+    "health": "On Track",
+    "value": "$360"
+  },
+  {
+    "id": "SW-2347",
+    "account": "City Center Retail — Solar panel rinse",
+    "stage": "Site Visit",
+    "priority": 3,
+    "health": "Needs Review",
+    "value": "$840"
+  },
+  {
+    "id": "SW-2346",
+    "account": "Meadowbrook Home — High-rise windows",
+    "stage": "Quote Sent",
     "priority": 1,
     "health": "At Risk",
-    "value": "$39,100"
+    "value": "$1,790"
   },
   {
-    "id": "OP-1815",
-    "account": "Dovetail Supply",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$64,200"
+    "id": "SW-2345",
+    "account": "Lantern Inn — Patio & siding clean",
+    "stage": "Scheduled",
+    "priority": 2,
+    "health": "On Hold",
+    "value": "$910"
   },
   {
-    "id": "OP-1814",
-    "account": "Elmwood Works",
-    "stage": "Proposal Sent",
+    "id": "SW-2344",
+    "account": "Copper Ridge HOA — Window washing",
+    "stage": "Inquiry",
+    "priority": 3,
+    "health": "On Track",
+    "value": "$210"
+  },
+  {
+    "id": "SW-2343",
+    "account": "Foothill Residence — Exterior wash",
+    "stage": "Site Visit",
     "priority": 1,
     "health": "Needs Review",
-    "value": "$20,800"
+    "value": "$570"
   },
   {
-    "id": "OP-1813",
-    "account": "Foxglove Holdings",
-    "stage": "Discovery",
+    "id": "SW-2342",
+    "account": "Seaside Bungalows — Storefront glass",
+    "stage": "Quote Sent",
+    "priority": 2,
+    "health": "At Risk",
+    "value": "$2,180"
+  },
+  {
+    "id": "SW-2341",
+    "account": "Crestview Offices — Gutter clean + windows",
+    "stage": "Scheduled",
+    "priority": 3,
+    "health": "On Hold",
+    "value": "$1,290"
+  },
+  {
+    "id": "SW-2340",
+    "account": "Harborview Condos — Pressure wash",
+    "stage": "Inquiry",
     "priority": 1,
     "health": "On Track",
-    "value": "$57,400"
+    "value": "$330"
   },
   {
-    "id": "OP-1812",
-    "account": "Glenrock Therapeutics",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$48,300"
+    "id": "SW-2339",
+    "account": "Maple Street Residence — Solar panel rinse",
+    "stage": "Site Visit",
+    "priority": 2,
+    "health": "Needs Review",
+    "value": "$960"
   },
   {
-    "id": "OP-1811",
-    "account": "Highspire Materials",
-    "stage": "Qualified",
+    "id": "SW-2338",
+    "account": "Cedar Ridge HOA — High-rise windows",
+    "stage": "Quote Sent",
+    "priority": 3,
+    "health": "At Risk",
+    "value": "$610"
+  },
+  {
+    "id": "SW-2337",
+    "account": "Brightline Offices — Patio & siding clean",
+    "stage": "Scheduled",
     "priority": 1,
     "health": "On Hold",
-    "value": "$35,200"
+    "value": "$1,680"
   },
   {
-    "id": "OP-1810",
-    "account": "Ivory Bioworks",
-    "stage": "Proposal Sent",
+    "id": "SW-2336",
+    "account": "Oakmont Family Home — Window washing",
+    "stage": "Inquiry",
+    "priority": 2,
+    "health": "On Track",
+    "value": "$450"
+  },
+  {
+    "id": "SW-2335",
+    "account": "Lakeside Cafe — Exterior wash",
+    "stage": "Site Visit",
+    "priority": 3,
+    "health": "Needs Review",
+    "value": "$690"
+  },
+  {
+    "id": "SW-2334",
+    "account": "Pinecrest Apartments — Storefront glass",
+    "stage": "Quote Sent",
     "priority": 1,
     "health": "At Risk",
-    "value": "$61,500"
+    "value": "$1,000"
   },
   {
-    "id": "OP-1809",
-    "account": "Kingswell Systems",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$42,000"
+    "id": "SW-2333",
+    "account": "Summit Dental Clinic — Gutter clean + windows",
+    "stage": "Scheduled",
+    "priority": 2,
+    "health": "On Hold",
+    "value": "$500"
   },
   {
-    "id": "OP-1808",
-    "account": "Lakefront Health",
-    "stage": "Negotiation",
+    "id": "SW-2332",
+    "account": "Westbrook Estate — Pressure wash",
+    "stage": "Inquiry",
+    "priority": 3,
+    "health": "On Track",
+    "value": "$300"
+  },
+  {
+    "id": "SW-2331",
+    "account": "Riverfront Lofts — Solar panel rinse",
+    "stage": "Site Visit",
     "priority": 1,
     "health": "Needs Review",
-    "value": "$18,500"
+    "value": "$410"
   },
   {
-    "id": "OP-1807",
-    "account": "Moorland Manufacturing",
-    "stage": "Qualified",
+    "id": "SW-2330",
+    "account": "Sunnyvale Townhomes — High-rise windows",
+    "stage": "Quote Sent",
+    "priority": 2,
+    "health": "At Risk",
+    "value": "$1,390"
+  },
+  {
+    "id": "SW-2329",
+    "account": "Northgate Plaza — Patio & siding clean",
+    "stage": "Scheduled",
+    "priority": 3,
+    "health": "On Hold",
+    "value": "$890"
+  },
+  {
+    "id": "SW-2328",
+    "account": "Elm Court Bungalow — Window washing",
+    "stage": "Inquiry",
     "priority": 1,
     "health": "On Track",
-    "value": "$63,000"
+    "value": "$410"
   },
   {
-    "id": "OP-1806",
-    "account": "Asteron Freight",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$26,400"
+    "id": "SW-2327",
+    "account": "Glasshouse Gallery — Exterior wash",
+    "stage": "Site Visit",
+    "priority": 2,
+    "health": "Needs Review",
+    "value": "$800"
   },
   {
-    "id": "OP-1805",
-    "account": "BlueHaven Capital",
-    "stage": "Discovery",
+    "id": "SW-2326",
+    "account": "Bayfront Suites — Storefront glass",
+    "stage": "Quote Sent",
+    "priority": 3,
+    "health": "At Risk",
+    "value": "$1,780"
+  },
+  {
+    "id": "SW-2325",
+    "account": "Willow Park School — Gutter clean + windows",
+    "stage": "Scheduled",
     "priority": 1,
     "health": "On Hold",
-    "value": "$58,900"
+    "value": "$1,280"
   },
   {
-    "id": "OP-1804",
-    "account": "Cinder Studios",
-    "stage": "Negotiation",
+    "id": "SW-2324",
+    "account": "Cornerstone Church — Pressure wash",
+    "stage": "Inquiry",
+    "priority": 2,
+    "health": "On Track",
+    "value": "$260"
+  },
+  {
+    "id": "SW-2323",
+    "account": "Skyline Towers — Solar panel rinse",
+    "stage": "Site Visit",
+    "priority": 3,
+    "health": "Needs Review",
+    "value": "$530"
+  },
+  {
+    "id": "SW-2322",
+    "account": "Greenfield Farmhouse — High-rise windows",
+    "stage": "Quote Sent",
     "priority": 1,
     "health": "At Risk",
-    "value": "$31,200"
+    "value": "$2,170"
   },
   {
-    "id": "OP-1803",
-    "account": "Drift Dynamics",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$15,600"
+    "id": "SW-2321",
+    "account": "Dockside Marina — Patio & siding clean",
+    "stage": "Scheduled",
+    "priority": 2,
+    "health": "On Hold",
+    "value": "$1,660"
   },
   {
-    "id": "OP-1802",
-    "account": "Everline Ventures",
-    "stage": "Proposal Sent",
+    "id": "SW-2320",
+    "account": "Hillcrest Villa — Window washing",
+    "stage": "Inquiry",
+    "priority": 3,
+    "health": "On Track",
+    "value": "$380"
+  },
+  {
+    "id": "SW-2319",
+    "account": "Parkside Clinic — Exterior wash",
+    "stage": "Site Visit",
     "priority": 1,
     "health": "Needs Review",
-    "value": "$47,900"
+    "value": "$920"
   },
   {
-    "id": "OP-1801",
-    "account": "Fieldstone Infrastructure",
-    "stage": "Discovery",
+    "id": "SW-2318",
+    "account": "Ashford Manor — Storefront glass",
+    "stage": "Quote Sent",
+    "priority": 2,
+    "health": "At Risk",
+    "value": "$600"
+  },
+  {
+    "id": "SW-2317",
+    "account": "City Center Retail — Gutter clean + windows",
+    "stage": "Scheduled",
+    "priority": 3,
+    "health": "On Hold",
+    "value": "$480"
+  },
+  {
+    "id": "SW-2316",
+    "account": "Meadowbrook Home — Pressure wash",
+    "stage": "Inquiry",
     "priority": 1,
     "health": "On Track",
-    "value": "$52,400"
+    "value": "$230"
   },
   {
-    "id": "OP-1800",
-    "account": "Granite Commerce",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$22,800"
+    "id": "SW-2315",
+    "account": "Lantern Inn — Solar panel rinse",
+    "stage": "Site Visit",
+    "priority": 2,
+    "health": "Needs Review",
+    "value": "$650"
   },
   {
-    "id": "OP-1799",
-    "account": "Halcyon Clinical",
-    "stage": "Qualified",
+    "id": "SW-2314",
+    "account": "Copper Ridge HOA — High-rise windows",
+    "stage": "Quote Sent",
+    "priority": 3,
+    "health": "At Risk",
+    "value": "$990"
+  },
+  {
+    "id": "SW-2313",
+    "account": "Foothill Residence — Patio & siding clean",
+    "stage": "Scheduled",
     "priority": 1,
     "health": "On Hold",
-    "value": "$19,300"
+    "value": "$870"
   },
   {
-    "id": "OP-1798",
-    "account": "Ironcrest Foods",
-    "stage": "Proposal Sent",
+    "id": "SW-2312",
+    "account": "Seaside Bungalows — Window washing",
+    "stage": "Inquiry",
+    "priority": 2,
+    "health": "On Track",
+    "value": "$350"
+  },
+  {
+    "id": "SW-2311",
+    "account": "Crestview Offices — Exterior wash",
+    "stage": "Site Visit",
+    "priority": 3,
+    "health": "Needs Review",
+    "value": "$370"
+  },
+  {
+    "id": "SW-2310",
+    "account": "Harborview Condos — Storefront glass",
+    "stage": "Quote Sent",
     "priority": 1,
     "health": "At Risk",
-    "value": "$68,500"
+    "value": "$1,380"
   },
   {
-    "id": "OP-1797",
-    "account": "Juniper Energy",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$36,100"
+    "id": "SW-2309",
+    "account": "Maple Street Residence — Gutter clean + windows",
+    "stage": "Scheduled",
+    "priority": 2,
+    "health": "On Hold",
+    "value": "$1,260"
   },
   {
-    "id": "OP-1796",
-    "account": "Kestrel Networks",
-    "stage": "Negotiation",
+    "id": "SW-2308",
+    "account": "Cedar Ridge HOA — Pressure wash",
+    "stage": "Inquiry",
+    "priority": 3,
+    "health": "On Track",
+    "value": "$190"
+  },
+  {
+    "id": "SW-2307",
+    "account": "Brightline Offices — Solar panel rinse",
+    "stage": "Site Visit",
     "priority": 1,
     "health": "Needs Review",
-    "value": "$27,400"
+    "value": "$760"
   },
   {
-    "id": "OP-1795",
-    "account": "Lattice Software",
-    "stage": "Qualified",
+    "id": "SW-2306",
+    "account": "Oakmont Family Home — High-rise windows",
+    "stage": "Quote Sent",
+    "priority": 2,
+    "health": "At Risk",
+    "value": "$1,770"
+  },
+  {
+    "id": "SW-2305",
+    "account": "Lakeside Cafe — Patio & siding clean",
+    "stage": "Scheduled",
+    "priority": 3,
+    "health": "On Hold",
+    "value": "$1,650"
+  },
+  {
+    "id": "SW-2304",
+    "account": "Pinecrest Apartments — Window washing",
+    "stage": "Inquiry",
     "priority": 1,
     "health": "On Track",
-    "value": "$24,700"
+    "value": "$310"
   },
   {
-    "id": "OP-1794",
-    "account": "Mariner Aerospace",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$33,400"
+    "id": "SW-2303",
+    "account": "Summit Dental Clinic — Exterior wash",
+    "stage": "Site Visit",
+    "priority": 2,
+    "health": "Needs Review",
+    "value": "$490"
   },
   {
-    "id": "OP-1793",
-    "account": "Northfield Devices",
-    "stage": "Discovery",
+    "id": "SW-2302",
+    "account": "Westbrook Estate — Storefront glass",
+    "stage": "Quote Sent",
+    "priority": 3,
+    "health": "At Risk",
+    "value": "$2,160"
+  },
+  {
+    "id": "SW-2301",
+    "account": "Riverfront Lofts — Gutter clean + windows",
+    "stage": "Scheduled",
     "priority": 1,
     "health": "On Hold",
-    "value": "$71,800"
+    "value": "$460"
   },
   {
-    "id": "OP-1792",
-    "account": "Oakwell Research",
-    "stage": "Negotiation",
+    "id": "SW-2300",
+    "account": "Sunnyvale Townhomes — Pressure wash",
+    "stage": "Inquiry",
+    "priority": 2,
+    "health": "On Track",
+    "value": "$430"
+  },
+  {
+    "id": "SW-2299",
+    "account": "Northgate Plaza — Solar panel rinse",
+    "stage": "Site Visit",
+    "priority": 3,
+    "health": "Needs Review",
+    "value": "$880"
+  },
+  {
+    "id": "SW-2298",
+    "account": "Elm Court Bungalow — High-rise windows",
+    "stage": "Quote Sent",
     "priority": 1,
     "health": "At Risk",
-    "value": "$29,200"
+    "value": "$590"
   },
   {
-    "id": "OP-1791",
-    "account": "Palisade Services",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$44,800"
+    "id": "SW-2297",
+    "account": "Glasshouse Gallery — Patio & siding clean",
+    "stage": "Scheduled",
+    "priority": 2,
+    "health": "On Hold",
+    "value": "$850"
   },
   {
-    "id": "OP-1790",
-    "account": "Quarry Operations",
-    "stage": "Proposal Sent",
+    "id": "SW-2296",
+    "account": "Bayfront Suites — Window washing",
+    "stage": "Inquiry",
+    "priority": 3,
+    "health": "On Track",
+    "value": "$280"
+  },
+  {
+    "id": "SW-2295",
+    "account": "Willow Park School — Exterior wash",
+    "stage": "Site Visit",
     "priority": 1,
     "health": "Needs Review",
-    "value": "$38,100"
+    "value": "$610"
   },
   {
-    "id": "OP-1789",
-    "account": "Redwood Design",
-    "stage": "Discovery",
+    "id": "SW-2294",
+    "account": "Cornerstone Church — Storefront glass",
+    "stage": "Quote Sent",
+    "priority": 2,
+    "health": "At Risk",
+    "value": "$980"
+  },
+  {
+    "id": "SW-2293",
+    "account": "Skyline Towers — Gutter clean + windows",
+    "stage": "Scheduled",
+    "priority": 3,
+    "health": "On Hold",
+    "value": "$1,240"
+  },
+  {
+    "id": "SW-2292",
+    "account": "Greenfield Farmhouse — Pressure wash",
+    "stage": "Inquiry",
     "priority": 1,
     "health": "On Track",
-    "value": "$26,750"
+    "value": "$400"
   },
   {
-    "id": "OP-1788",
-    "account": "Silverline Logistics",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$54,900"
+    "id": "SW-2291",
+    "account": "Dockside Marina — Solar panel rinse",
+    "stage": "Site Visit",
+    "priority": 2,
+    "health": "Needs Review",
+    "value": "$330"
   },
   {
-    "id": "OP-1787",
-    "account": "TrueNorth Analytics",
-    "stage": "Qualified",
+    "id": "SW-2290",
+    "account": "Hillcrest Villa — High-rise windows",
+    "stage": "Quote Sent",
+    "priority": 3,
+    "health": "At Risk",
+    "value": "$1,370"
+  },
+  {
+    "id": "SW-2289",
+    "account": "Parkside Clinic — Patio & siding clean",
+    "stage": "Scheduled",
     "priority": 1,
     "health": "On Hold",
-    "value": "$60,700"
+    "value": "$1,630"
   },
   {
-    "id": "OP-1786",
-    "account": "Union Mobility",
-    "stage": "Proposal Sent",
+    "id": "SW-2288",
+    "account": "Ashford Manor — Window washing",
+    "stage": "Inquiry",
+    "priority": 2,
+    "health": "On Track",
+    "value": "$240"
+  },
+  {
+    "id": "SW-2287",
+    "account": "City Center Retail — Exterior wash",
+    "stage": "Site Visit",
+    "priority": 3,
+    "health": "Needs Review",
+    "value": "$720"
+  },
+  {
+    "id": "SW-2286",
+    "account": "Meadowbrook Home — Storefront glass",
+    "stage": "Quote Sent",
     "priority": 1,
     "health": "At Risk",
-    "value": "$17,100"
+    "value": "$1,760"
   },
   {
-    "id": "OP-1785",
-    "account": "Vale Labs",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$45,500"
+    "id": "SW-2285",
+    "account": "Lantern Inn — Gutter clean + windows",
+    "stage": "Scheduled",
+    "priority": 2,
+    "health": "On Hold",
+    "value": "$450"
   },
   {
-    "id": "OP-1784",
-    "account": "Westbridge Partners",
-    "stage": "Negotiation",
+    "id": "SW-2284",
+    "account": "Copper Ridge HOA — Pressure wash",
+    "stage": "Inquiry",
+    "priority": 3,
+    "health": "On Track",
+    "value": "$360"
+  },
+  {
+    "id": "SW-2283",
+    "account": "Foothill Residence — Solar panel rinse",
+    "stage": "Site Visit",
     "priority": 1,
     "health": "Needs Review",
-    "value": "$28,600"
+    "value": "$450"
   },
   {
-    "id": "OP-1783",
-    "account": "Yellowtail Supply",
-    "stage": "Qualified",
+    "id": "SW-2282",
+    "account": "Seaside Bungalows — High-rise windows",
+    "stage": "Quote Sent",
+    "priority": 2,
+    "health": "At Risk",
+    "value": "$2,150"
+  },
+  {
+    "id": "SW-2281",
+    "account": "Crestview Offices — Patio & siding clean",
+    "stage": "Scheduled",
+    "priority": 3,
+    "health": "On Hold",
+    "value": "$830"
+  },
+  {
+    "id": "SW-2280",
+    "account": "Harborview Condos — Window washing",
+    "stage": "Inquiry",
     "priority": 1,
     "health": "On Track",
-    "value": "$39,100"
+    "value": "$210"
   },
   {
-    "id": "OP-1782",
-    "account": "Zephyr Works",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$64,200"
+    "id": "SW-2279",
+    "account": "Maple Street Residence — Exterior wash",
+    "stage": "Site Visit",
+    "priority": 2,
+    "health": "Needs Review",
+    "value": "$840"
   },
   {
-    "id": "OP-1781",
-    "account": "Bayshore Holdings",
-    "stage": "Discovery",
+    "id": "SW-2278",
+    "account": "Cedar Ridge HOA — Storefront glass",
+    "stage": "Quote Sent",
+    "priority": 3,
+    "health": "At Risk",
+    "value": "$580"
+  },
+  {
+    "id": "SW-2277",
+    "account": "Brightline Offices — Gutter clean + windows",
+    "stage": "Scheduled",
     "priority": 1,
     "health": "On Hold",
-    "value": "$20,800"
+    "value": "$1,220"
   },
   {
-    "id": "OP-1780",
-    "account": "Clearpoint Therapeutics",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$57,400"
+    "id": "SW-2276",
+    "account": "Oakmont Family Home — Pressure wash",
+    "stage": "Inquiry",
+    "priority": 2,
+    "health": "On Track",
+    "value": "$330"
   },
   {
-    "id": "OP-1779",
-    "account": "Dovetail Materials",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$48,300"
-  },
-  {
-    "id": "OP-1778",
-    "account": "Elmwood Bioworks",
-    "stage": "Proposal Sent",
-    "priority": 1,
+    "id": "SW-2275",
+    "account": "Lakeside Cafe — Solar panel rinse",
+    "stage": "Site Visit",
+    "priority": 3,
     "health": "Needs Review",
-    "value": "$35,200"
+    "value": "$570"
   },
   {
-    "id": "OP-1777",
-    "account": "Foxglove Systems",
-    "stage": "Discovery",
+    "id": "SW-2274",
+    "account": "Pinecrest Apartments — High-rise windows",
+    "stage": "Quote Sent",
     "priority": 1,
-    "health": "On Track",
-    "value": "$61,500"
+    "health": "At Risk",
+    "value": "$970"
   },
   {
-    "id": "OP-1776",
-    "account": "Glenrock Health",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$42,000"
-  },
-  {
-    "id": "OP-1775",
-    "account": "Highspire Manufacturing",
-    "stage": "Qualified",
-    "priority": 1,
+    "id": "SW-2273",
+    "account": "Summit Dental Clinic — Patio & siding clean",
+    "stage": "Scheduled",
+    "priority": 2,
     "health": "On Hold",
-    "value": "$18,500"
+    "value": "$1,610"
   },
   {
-    "id": "OP-1774",
-    "account": "Ivory Freight",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$63,000"
+    "id": "SW-2272",
+    "account": "Westbrook Estate — Window washing",
+    "stage": "Inquiry",
+    "priority": 3,
+    "health": "On Track",
+    "value": "$450"
   },
   {
-    "id": "OP-1773",
-    "account": "Kingswell Capital",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$26,400"
-  },
-  {
-    "id": "OP-1772",
-    "account": "Lakefront Studios",
-    "stage": "Negotiation",
+    "id": "SW-2271",
+    "account": "Riverfront Lofts — Exterior wash",
+    "stage": "Site Visit",
     "priority": 1,
     "health": "Needs Review",
-    "value": "$58,900"
+    "value": "$950"
   },
   {
-    "id": "OP-1771",
-    "account": "Moorland Dynamics",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$31,200"
+    "id": "SW-2270",
+    "account": "Sunnyvale Townhomes — Storefront glass",
+    "stage": "Quote Sent",
+    "priority": 2,
+    "health": "At Risk",
+    "value": "$1,360"
   },
   {
-    "id": "OP-1770",
-    "account": "Asteron Ventures",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$15,600"
-  },
-  {
-    "id": "OP-1769",
-    "account": "BlueHaven Infrastructure",
-    "stage": "Discovery",
-    "priority": 1,
+    "id": "SW-2269",
+    "account": "Northgate Plaza — Gutter clean + windows",
+    "stage": "Scheduled",
+    "priority": 3,
     "health": "On Hold",
-    "value": "$47,900"
-  },
-  {
-    "id": "OP-1768",
-    "account": "Cinder Commerce",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$52,400"
-  },
-  {
-    "id": "OP-1767",
-    "account": "Drift Clinical",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$22,800"
-  },
-  {
-    "id": "OP-1766",
-    "account": "Everline Foods",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "Needs Review",
-    "value": "$19,300"
-  },
-  {
-    "id": "OP-1765",
-    "account": "Fieldstone Energy",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$68,500"
-  },
-  {
-    "id": "OP-1764",
-    "account": "Granite Networks",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$36,100"
-  },
-  {
-    "id": "OP-1763",
-    "account": "Halcyon Software",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "On Hold",
-    "value": "$27,400"
-  },
-  {
-    "id": "OP-1762",
-    "account": "Ironcrest Aerospace",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$24,700"
-  },
-  {
-    "id": "OP-1761",
-    "account": "Juniper Devices",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$33,400"
-  },
-  {
-    "id": "OP-1760",
-    "account": "Kestrel Research",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "Needs Review",
-    "value": "$71,800"
-  },
-  {
-    "id": "OP-1759",
-    "account": "Lattice Services",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$29,200"
-  },
-  {
-    "id": "OP-1758",
-    "account": "Mariner Operations",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$44,800"
-  },
-  {
-    "id": "OP-1757",
-    "account": "Northfield Design",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "On Hold",
-    "value": "$38,100"
-  },
-  {
-    "id": "OP-1756",
-    "account": "Oakwell Logistics",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$26,750"
-  },
-  {
-    "id": "OP-1755",
-    "account": "Palisade Analytics",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$54,900"
-  },
-  {
-    "id": "OP-1754",
-    "account": "Quarry Mobility",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "Needs Review",
-    "value": "$60,700"
-  },
-  {
-    "id": "OP-1753",
-    "account": "Redwood Labs",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$17,100"
-  },
-  {
-    "id": "OP-1752",
-    "account": "Silverline Partners",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$45,500"
-  },
-  {
-    "id": "OP-1751",
-    "account": "TrueNorth Supply",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "On Hold",
-    "value": "$28,600"
-  },
-  {
-    "id": "OP-1750",
-    "account": "Union Works",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$39,100"
-  },
-  {
-    "id": "OP-1749",
-    "account": "Vale Holdings",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$64,200"
-  },
-  {
-    "id": "OP-1748",
-    "account": "Westbridge Therapeutics",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "Needs Review",
-    "value": "$20,800"
-  },
-  {
-    "id": "OP-1747",
-    "account": "Yellowtail Materials",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$57,400"
-  },
-  {
-    "id": "OP-1746",
-    "account": "Zephyr Bioworks",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$48,300"
-  },
-  {
-    "id": "OP-1745",
-    "account": "Bayshore Systems",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "On Hold",
-    "value": "$35,200"
-  },
-  {
-    "id": "OP-1744",
-    "account": "Clearpoint Health",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$61,500"
-  },
-  {
-    "id": "OP-1743",
-    "account": "Dovetail Manufacturing",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$42,000"
-  },
-  {
-    "id": "OP-1742",
-    "account": "Elmwood Freight",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "Needs Review",
-    "value": "$18,500"
-  },
-  {
-    "id": "OP-1741",
-    "account": "Foxglove Capital",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$63,000"
-  },
-  {
-    "id": "OP-1740",
-    "account": "Glenrock Studios",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$26,400"
-  },
-  {
-    "id": "OP-1739",
-    "account": "Highspire Dynamics",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "On Hold",
-    "value": "$58,900"
-  },
-  {
-    "id": "OP-1738",
-    "account": "Ivory Ventures",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$31,200"
-  },
-  {
-    "id": "OP-1737",
-    "account": "Kingswell Infrastructure",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$15,600"
-  },
-  {
-    "id": "OP-1736",
-    "account": "Lakefront Commerce",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "Needs Review",
-    "value": "$47,900"
-  },
-  {
-    "id": "OP-1735",
-    "account": "Moorland Clinical",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$52,400"
-  },
-  {
-    "id": "OP-1734",
-    "account": "Asteron Foods",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$22,800"
-  },
-  {
-    "id": "OP-1733",
-    "account": "BlueHaven Energy",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "On Hold",
-    "value": "$19,300"
-  },
-  {
-    "id": "OP-1732",
-    "account": "Cinder Networks",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$68,500"
-  },
-  {
-    "id": "OP-1731",
-    "account": "Drift Software",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$36,100"
-  },
-  {
-    "id": "OP-1730",
-    "account": "Everline Aerospace",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "Needs Review",
-    "value": "$27,400"
-  },
-  {
-    "id": "OP-1729",
-    "account": "Fieldstone Devices",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$24,700"
-  },
-  {
-    "id": "OP-1728",
-    "account": "Granite Research",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$33,400"
-  },
-  {
-    "id": "OP-1727",
-    "account": "Halcyon Services",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "On Hold",
-    "value": "$71,800"
-  },
-  {
-    "id": "OP-1726",
-    "account": "Ironcrest Operations",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$29,200"
-  },
-  {
-    "id": "OP-1725",
-    "account": "Juniper Design",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$44,800"
-  },
-  {
-    "id": "OP-1724",
-    "account": "Kestrel Logistics",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "Needs Review",
-    "value": "$38,100"
-  },
-  {
-    "id": "OP-1723",
-    "account": "Lattice Analytics",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$26,750"
-  },
-  {
-    "id": "OP-1722",
-    "account": "Mariner Mobility",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$54,900"
-  },
-  {
-    "id": "OP-1721",
-    "account": "Northfield Labs",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "On Hold",
-    "value": "$60,700"
-  },
-  {
-    "id": "OP-1720",
-    "account": "Oakwell Partners",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$17,100"
-  },
-  {
-    "id": "OP-1719",
-    "account": "Palisade Supply",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$45,500"
-  },
-  {
-    "id": "OP-1718",
-    "account": "Quarry Works",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "Needs Review",
-    "value": "$28,600"
-  },
-  {
-    "id": "OP-1717",
-    "account": "Redwood Holdings",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$39,100"
-  },
-  {
-    "id": "OP-1716",
-    "account": "Silverline Therapeutics",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$64,200"
-  },
-  {
-    "id": "OP-1715",
-    "account": "TrueNorth Materials",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "On Hold",
-    "value": "$20,800"
-  },
-  {
-    "id": "OP-1714",
-    "account": "Union Bioworks",
-    "stage": "Proposal Sent",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$57,400"
-  },
-  {
-    "id": "OP-1713",
-    "account": "Vale Systems",
-    "stage": "Discovery",
-    "priority": 1,
-    "health": "At Risk",
-    "value": "$48,300"
-  },
-  {
-    "id": "OP-1712",
-    "account": "Westbridge Health",
-    "stage": "Negotiation",
-    "priority": 1,
-    "health": "Needs Review",
-    "value": "$35,200"
-  },
-  {
-    "id": "OP-1711",
-    "account": "Yellowtail Manufacturing",
-    "stage": "Qualified",
-    "priority": 1,
-    "health": "On Track",
-    "value": "$61,500"
+    "value": "$430"
   }
 ]

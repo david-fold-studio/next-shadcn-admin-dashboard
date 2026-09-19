@@ -23,13 +23,8 @@ export default function Home() {
     <main className={`${styles.landing} min-h-screen bg-background text-foreground`} data-landing-page>
       <div className="mx-auto flex w-full max-w-3xl flex-col gap-6 p-4 sm:gap-8 sm:p-6 md:p-8">
         <header className="flex items-start justify-between gap-4 sm:items-center sm:gap-6">
-          <Link
-            className="font-medium text-base tracking-tight"
-            href="/"
-            aria-label="Windows CRM home"
-            prefetch={false}
-          >
-            Windows CRM
+          <Link className="font-medium text-base tracking-tight" href="/" aria-label="Swish home" prefetch={false}>
+            Swish
           </Link>
           <LandingThemeSwitcher />
         </header>
