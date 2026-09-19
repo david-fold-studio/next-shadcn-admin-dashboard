@@ -4,9 +4,8 @@ import { Chat } from "./_components/chat";
 import { conversations } from "./_components/data";
 
 export const metadata: Metadata = {
-  title: "Open Source Chat Interface with shadcn/ui",
-  description:
-    "Explore an open source chat interface with conversation search, message threads, internal notes, and contact details.",
+  title: "Customer messages — Swish",
+  description: "Text Swish customers about quotes, schedules, and follow-ups. Ready to connect Twilio later.",
 };
 
 export default function Page() {
