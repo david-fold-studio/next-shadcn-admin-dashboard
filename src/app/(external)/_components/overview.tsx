@@ -12,7 +12,7 @@ const includedScreens = [
 
 const workspaceTools = [
   { name: "Email", href: "/dashboard/mail" },
-  { name: "Chat", href: "/dashboard/chat" },
+  { name: "Messages", href: "/dashboard/chat" },
   { name: "Finance", href: "/dashboard/finance" },
   { name: "Users & roles", href: "/dashboard/users" },
 ];
