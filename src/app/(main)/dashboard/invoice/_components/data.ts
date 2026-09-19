@@ -54,48 +54,74 @@ export interface InvoiceFormValues {
 const today = new Date();
 
 export const defaultInvoiceValues: InvoiceFormValues = {
-  referenceNumber: "FL-0425",
+  referenceNumber: "INV-0425",
   issuedDate: format(today, "yyyy-MM-dd"),
   paymentDueDate: format(addDays(today, 14), "yyyy-MM-dd"),
   from: {
-    name: "Weblabs Studio",
-    email: "hello@weblabs.studio",
-    phone: "+1-512-555-0184",
-    website: "weblabs.studio",
-    addressLines: ["214 Pixel Avenue", "Austin, TX 78701"],
-    taxId: "WS-1029384756",
-    paymentAccountName: "Mercury Business",
-    routingNumber: "084009519",
-    issuerName: "Arham Khan",
+    name: "Swish",
+    email: "billing@swish.clean",
+    phone: "+1-415-555-0199",
+    website: "swish.clean",
+    addressLines: ["120 Clean Street", "San Francisco, CA 94107"],
+    taxId: "SW-1029384756",
+    paymentAccountName: "Swish Operating",
+    routingNumber: "121000248",
+    issuerName: "Swish Operations",
   },
   to: {
-    id: "aiy-cap",
-    name: "AIY Cap",
-    email: "finance@aiycap.com",
-    addressLines: ["One BKC, Bandra Kurla Complex", "Mumbai, Maharashtra 400051"],
-    taxId: "GSTIN-27AAICA9102K1Z7",
+    id: "maria-lopez",
+    name: "Maria Lopez",
+    email: "maria.lopez@email.com",
+    addressLines: ["214 Harborview Ave", "San Francisco, CA 94158"],
+    taxId: "",
   },
-  taxId: "vat",
+  taxId: "none",
   discountType: "fixed",
-  discountValue: 40,
+  discountValue: 0,
   items: [
     {
-      id: "hosting",
-      description: "Cloud hosting services",
-      quantity: 1,
-      unitPrice: 3500,
+      id: "windows",
+      description: "Interior & exterior window washing",
+      quantity: 18,
+      unitPrice: 12,
     },
     {
-      id: "analytics",
-      description: "Data analytics report",
-      quantity: 2,
-      unitPrice: 750,
+      id: "screens",
+      description: "Screen cleaning",
+      quantity: 8,
+      unitPrice: 6,
     },
     {
-      id: "support",
-      description: "Technical support retainer",
+      id: "tracks",
+      description: "Track & sill detailing",
       quantity: 1,
-      unitPrice: 400,
+      unitPrice: 45,
+    },
+  ],
+};
+
+export const defaultEstimateValues: InvoiceFormValues = {
+  ...defaultInvoiceValues,
+  referenceNumber: "EST-309",
+  paymentDueDate: format(addDays(today, 14), "yyyy-MM-dd"),
+  items: [
+    {
+      id: "windows",
+      description: "Interior & exterior window washing",
+      quantity: 22,
+      unitPrice: 12,
+    },
+    {
+      id: "exterior",
+      description: "House exterior soft wash",
+      quantity: 1,
+      unitPrice: 280,
+    },
+    {
+      id: "gutters",
+      description: "Gutter clearing (optional add-on)",
+      quantity: 1,
+      unitPrice: 120,
     },
   ],
 };
@@ -124,20 +150,27 @@ export const invoiceTaxOptions: InvoiceTaxOption[] = [
 ];
 
 export const invoiceClients: InvoiceToDetails[] = [
-  {
-    id: "bright-enterprises",
-    name: "Bright Enterprises",
-    email: "billing@brightenterprises.com",
-    addressLines: ["450 Park Avenue South", "New York, NY 10016", "United States"],
-    taxId: "US-EIN-84-2938475",
-  },
   defaultInvoiceValues.to,
   {
-    id: "northline-gmbh",
-    name: "Northline GmbH",
-    email: "ap@northline.de",
-    addressLines: ["Kastanienallee 32", "10435 Berlin", "Germany"],
-    taxId: "DE-VAT-219384756",
+    id: "cedar-ridge-hoa",
+    name: "Cedar Ridge HOA",
+    email: "board@cedarridgehoa.com",
+    addressLines: ["12 Cedar Ridge Loop", "Oakland, CA 94611"],
+    taxId: "",
+  },
+  {
+    id: "brightline-offices",
+    name: "Brightline Offices",
+    email: "facilities@brightline.co",
+    addressLines: ["400 Market St, Suite 200", "San Francisco, CA 94105"],
+    taxId: "",
+  },
+  {
+    id: "lakeside-cafe",
+    name: "Lakeside Cafe",
+    email: "hello@lakesidecafe.com",
+    addressLines: ["5 Lakeside Drive", "San Mateo, CA 94403"],
+    taxId: "",
   },
 ];
 

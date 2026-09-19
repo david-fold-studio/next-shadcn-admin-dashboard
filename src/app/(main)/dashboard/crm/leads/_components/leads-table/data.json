@@ -1,0 +1,134 @@
+[
+  {
+    "id": "LD-1042",
+    "name": "Maria Lopez",
+    "address": "214 Harborview Ave",
+    "service": "Window washing",
+    "status": "New",
+    "source": "Website",
+    "phone": "+1 (415) 555-0142",
+    "estimatedValue": "$220",
+    "lastContact": "Today"
+  },
+  {
+    "id": "LD-1041",
+    "name": "James Chen",
+    "address": "88 Maple Street",
+    "service": "Exterior wash",
+    "status": "Contacted",
+    "source": "Google",
+    "phone": "+1 (415) 555-0198",
+    "estimatedValue": "$480",
+    "lastContact": "Yesterday"
+  },
+  {
+    "id": "LD-1040",
+    "name": "Cedar Ridge HOA",
+    "address": "12 Cedar Ridge Loop",
+    "service": "Storefront glass",
+    "status": "Quoted",
+    "source": "Referral",
+    "phone": "+1 (510) 555-0110",
+    "estimatedValue": "$1,240",
+    "lastContact": "2 days ago"
+  },
+  {
+    "id": "LD-1039",
+    "name": "Brightline Offices",
+    "address": "400 Market St, Suite 200",
+    "service": "Gutter clean + windows",
+    "status": "Quoted",
+    "source": "Website",
+    "phone": "+1 (415) 555-0177",
+    "estimatedValue": "$890",
+    "lastContact": "3 days ago"
+  },
+  {
+    "id": "LD-1038",
+    "name": "Priya Patel",
+    "address": "19 Oakmont Court",
+    "service": "Pressure wash",
+    "status": "New",
+    "source": "Door hanger",
+    "phone": "+1 (650) 555-0133",
+    "estimatedValue": "$310",
+    "lastContact": "Today"
+  },
+  {
+    "id": "LD-1037",
+    "name": "Lakeside Cafe",
+    "address": "5 Lakeside Drive",
+    "service": "Solar panel rinse",
+    "status": "Won",
+    "source": "Repeat",
+    "phone": "+1 (415) 555-0160",
+    "estimatedValue": "$540",
+    "lastContact": "1 week ago"
+  },
+  {
+    "id": "LD-1036",
+    "name": "Tom Nguyen",
+    "address": "903 Pinecrest Blvd",
+    "service": "High-rise windows",
+    "status": "Contacted",
+    "source": "Google",
+    "phone": "+1 (408) 555-0121",
+    "estimatedValue": "$1,650",
+    "lastContact": "Yesterday"
+  },
+  {
+    "id": "LD-1035",
+    "name": "Summit Dental",
+    "address": "77 Summit Way",
+    "service": "Patio & siding clean",
+    "status": "Lost",
+    "source": "Referral",
+    "phone": "+1 (925) 555-0188",
+    "estimatedValue": "$720",
+    "lastContact": "2 weeks ago"
+  },
+  {
+    "id": "LD-1034",
+    "name": "Elena Brooks",
+    "address": "441 Westbrook Lane",
+    "service": "Window washing",
+    "status": "New",
+    "source": "Website",
+    "phone": "+1 (415) 555-0155",
+    "estimatedValue": "$195",
+    "lastContact": "Today"
+  },
+  {
+    "id": "LD-1033",
+    "name": "Riverfront Lofts",
+    "address": "100 Riverfront Way",
+    "service": "Exterior wash",
+    "status": "Quoted",
+    "source": "Google",
+    "phone": "+1 (510) 555-0144",
+    "estimatedValue": "$2,100",
+    "lastContact": "4 days ago"
+  },
+  {
+    "id": "LD-1032",
+    "name": "Chris Alvarez",
+    "address": "56 Sunnyvale Terrace",
+    "service": "Window washing",
+    "status": "Contacted",
+    "source": "Door hanger",
+    "phone": "+1 (650) 555-0190",
+    "estimatedValue": "$260",
+    "lastContact": "Yesterday"
+  },
+  {
+    "id": "LD-1031",
+    "name": "Northgate Plaza",
+    "address": "2200 Northgate Mall",
+    "service": "Storefront glass",
+    "status": "Won",
+    "source": "Repeat",
+    "phone": "+1 (925) 555-0102",
+    "estimatedValue": "$980",
+    "lastContact": "3 weeks ago"
+  }
+]

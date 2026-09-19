@@ -6,9 +6,9 @@ import { defaultInvoiceValues, type InvoiceFormValues } from "./data";
 import { InvoiceForm } from "./invoice-form";
 import { InvoicePreview } from "./invoice-preview";
 
-export function Invoice() {
+export function Invoice({ defaultValues = defaultInvoiceValues }: { defaultValues?: InvoiceFormValues }) {
   const form = useForm<InvoiceFormValues>({
-    defaultValues: defaultInvoiceValues,
+    defaultValues,
   });
   const invoice = useWatch({ control: form.control }) as InvoiceFormValues;
 

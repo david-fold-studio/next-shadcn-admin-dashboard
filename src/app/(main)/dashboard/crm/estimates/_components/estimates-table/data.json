@@ -1,0 +1,102 @@
+[
+  {
+    "id": "EST-308",
+    "customer": "Maria Lopez",
+    "address": "214 Harborview Ave",
+    "service": "Interior & exterior window washing",
+    "status": "Sent",
+    "total": "$245",
+    "validUntil": "Oct 3, 2026",
+    "createdAt": "Sep 19, 2026"
+  },
+  {
+    "id": "EST-307",
+    "customer": "Cedar Ridge HOA",
+    "address": "12 Cedar Ridge Loop",
+    "service": "Storefront glass + entry canopy",
+    "status": "Accepted",
+    "total": "$1,240",
+    "validUntil": "Sep 30, 2026",
+    "createdAt": "Sep 17, 2026"
+  },
+  {
+    "id": "EST-306",
+    "customer": "James Chen",
+    "address": "88 Maple Street",
+    "service": "House exterior wash",
+    "status": "Draft",
+    "total": "$480",
+    "validUntil": "Oct 5, 2026",
+    "createdAt": "Sep 18, 2026"
+  },
+  {
+    "id": "EST-305",
+    "customer": "Brightline Offices",
+    "address": "400 Market St, Suite 200",
+    "service": "Gutter clean + window washing",
+    "status": "Sent",
+    "total": "$890",
+    "validUntil": "Sep 28, 2026",
+    "createdAt": "Sep 15, 2026"
+  },
+  {
+    "id": "EST-304",
+    "customer": "Lakeside Cafe",
+    "address": "5 Lakeside Drive",
+    "service": "Solar panel rinse + patio glass",
+    "status": "Accepted",
+    "total": "$540",
+    "validUntil": "Sep 25, 2026",
+    "createdAt": "Sep 12, 2026"
+  },
+  {
+    "id": "EST-303",
+    "customer": "Tom Nguyen",
+    "address": "903 Pinecrest Blvd",
+    "service": "High-rise window washing",
+    "status": "Declined",
+    "total": "$1,650",
+    "validUntil": "Sep 20, 2026",
+    "createdAt": "Sep 10, 2026"
+  },
+  {
+    "id": "EST-302",
+    "customer": "Riverfront Lofts",
+    "address": "100 Riverfront Way",
+    "service": "Full exterior wash package",
+    "status": "Sent",
+    "total": "$2,100",
+    "validUntil": "Oct 1, 2026",
+    "createdAt": "Sep 14, 2026"
+  },
+  {
+    "id": "EST-301",
+    "customer": "Summit Dental",
+    "address": "77 Summit Way",
+    "service": "Patio & siding clean",
+    "status": "Expired",
+    "total": "$720",
+    "validUntil": "Sep 8, 2026",
+    "createdAt": "Aug 25, 2026"
+  },
+  {
+    "id": "EST-300",
+    "customer": "Elena Brooks",
+    "address": "441 Westbrook Lane",
+    "service": "Residential window washing",
+    "status": "Draft",
+    "total": "$195",
+    "validUntil": "Oct 8, 2026",
+    "createdAt": "Sep 19, 2026"
+  },
+  {
+    "id": "EST-299",
+    "customer": "Northgate Plaza",
+    "address": "2200 Northgate Mall",
+    "service": "Monthly storefront glass plan",
+    "status": "Accepted",
+    "total": "$980",
+    "validUntil": "Sep 22, 2026",
+    "createdAt": "Sep 5, 2026"
+  }
+]

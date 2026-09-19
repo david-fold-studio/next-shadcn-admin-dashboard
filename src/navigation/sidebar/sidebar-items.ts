@@ -3,6 +3,8 @@ import {
   Calendar,
   ChartBar,
   CheckSquare,
+  ClipboardList,
+  FileText,
   Fingerprint,
   FolderOpen,
   Forklift,
@@ -74,6 +76,18 @@ export const sidebarItems: NavGroup[] = [
         icon: ChartBar,
       },
       {
+        id: "leads",
+        title: "Leads",
+        url: "/dashboard/crm/leads",
+        icon: ClipboardList,
+      },
+      {
+        id: "estimates",
+        title: "Estimates",
+        url: "/dashboard/crm/estimates",
+        icon: FileText,
+      },
+      {
         id: "customers",
         title: "Customers",
         url: "/dashboard/default",
@@ -117,7 +131,7 @@ export const sidebarItems: NavGroup[] = [
       },
       {
         id: "chat",
-        title: "Chat",
+        title: "Messages",
         url: "/dashboard/chat",
         icon: MessageSquare,
       },
