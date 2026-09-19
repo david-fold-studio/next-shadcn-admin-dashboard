@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 import { Separator } from "@/components/ui/separator";
+import { APP_CONFIG } from "@/config/app-config";
 
 import { Footer } from "./_components/footer";
 import { Intro } from "./_components/intro";
@@ -12,9 +13,8 @@ import { Showcase } from "./_components/showcase";
 import styles from "./landing.module.css";
 
 export const metadata: Metadata = {
-  title: "Studio Admin: Open Source Admin Dashboard with shadcn/ui",
-  description:
-    "A polished open source shadcn/ui admin dashboard with 25+ screens and editions for Radix UI, Base UI, React Aria, and TanStack Start.",
+  title: APP_CONFIG.meta.title,
+  description: APP_CONFIG.meta.description,
 };
 
 export default function Home() {
@@ -26,10 +26,10 @@ export default function Home() {
           <Link
             className="font-medium text-base tracking-tight"
             href="/"
-            aria-label="Studio Admin home"
+            aria-label="Windows CRM home"
             prefetch={false}
           >
-            Studio Admin
+            Windows CRM
           </Link>
           <LandingThemeSwitcher />
         </header>

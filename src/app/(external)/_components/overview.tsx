@@ -1,32 +1,20 @@
 import Link from "next/link";
 
 const includedScreens = [
-  { name: "Analytics", href: "/dashboard/analytics" },
-  { name: "CRM", href: "/dashboard/crm" },
-  { name: "Finance", href: "/dashboard/finance" },
-  { name: "E-commerce", href: "/dashboard/ecommerce" },
-  { name: "Productivity", href: "/dashboard/productivity" },
-  { name: "File manager", href: "/dashboard/file-manager" },
+  { name: "Pipeline", href: "/dashboard/crm" },
+  { name: "Customers", href: "/dashboard/default" },
+  { name: "Deal board", href: "/dashboard/kanban" },
+  { name: "Tasks", href: "/dashboard/tasks" },
   { name: "Calendar", href: "/dashboard/calendar" },
+  { name: "Invoices", href: "/dashboard/invoice" },
+  { name: "Analytics", href: "/dashboard/analytics" },
 ];
 
-const editions = [
-  {
-    name: "Radix UI",
-    repository: "https://github.com/arhamkhnz/next-shadcn-admin-dashboard",
-  },
-  {
-    name: "Base UI",
-    repository: "https://github.com/arhamkhnz/next-shadcn-admin-dashboard-baseui",
-  },
-  {
-    name: "React Aria",
-    repository: "https://github.com/arhamkhnz/next-shadcn-admin-dashboard-aria",
-  },
-  {
-    name: "TanStack Start",
-    repository: "https://github.com/arhamkhnz/tanstack-shadcn-admin-dashboard",
-  },
+const workspaceTools = [
+  { name: "Email", href: "/dashboard/mail" },
+  { name: "Chat", href: "/dashboard/chat" },
+  { name: "Finance", href: "/dashboard/finance" },
+  { name: "Users & roles", href: "/dashboard/users" },
 ];
 
 export function Overview() {
@@ -37,22 +25,21 @@ export function Overview() {
           <div className="flex flex-col gap-4">
             <p className="font-medium text-muted-foreground text-xs">About</p>
             <h2 className="text-pretty text-xl leading-7 tracking-tight" id="overview-title">
-              An open source shadcn/ui admin dashboard with 25+ screens, ready to make your own.
+              Windows CRM turns a polished admin workspace into a practical place to manage customers and deals.
             </h2>
           </div>
 
           <div className="flex flex-col gap-4">
             <p className="font-medium text-muted-foreground text-xs">Make it yours</p>
             <p className="text-muted-foreground text-sm leading-6">
-              Customize the fonts, themes, content width, navbar, and sidebar layout. Each edition stays native to its
-              foundation while keeping the design consistent.
+              Start with the pipeline view, then customize themes, layout, and screens to match how your team works.
             </p>
           </div>
         </div>
 
         <div className="grid grid-cols-2 gap-6 sm:gap-10">
           <div className="flex flex-col gap-4">
-            <h3 className="font-medium text-muted-foreground text-xs">Featured screens</h3>
+            <h3 className="font-medium text-muted-foreground text-xs">CRM screens</h3>
             <ul className="flex flex-col gap-1 text-sm">
               {includedScreens.map((screen) => (
                 <li key={screen.name}>
@@ -69,18 +56,17 @@ export function Overview() {
           </div>
 
           <div className="flex flex-col gap-4" id="variants">
-            <h3 className="font-medium text-muted-foreground text-xs">Editions</h3>
+            <h3 className="font-medium text-muted-foreground text-xs">Also included</h3>
             <ul className="flex flex-col gap-1 text-sm">
-              {editions.map((edition) => (
-                <li key={edition.name}>
-                  <a
+              {workspaceTools.map((tool) => (
+                <li key={tool.name}>
+                  <Link
                     className="underline decoration-border underline-offset-4 transition-colors hover:decoration-foreground"
-                    href={edition.repository}
-                    target="_blank"
-                    rel="noreferrer"
+                    href={tool.href}
+                    prefetch={false}
                   >
-                    {edition.name}
-                  </a>
+                    {tool.name}
+                  </Link>
                 </li>
               ))}
             </ul>

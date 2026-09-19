@@ -65,25 +65,61 @@ export interface NavGroup {
 export const sidebarItems: NavGroup[] = [
   {
     id: 1,
-    label: "Dashboards",
+    label: "CRM",
     items: [
       {
-        id: "default",
-        title: "Default",
-        url: "/dashboard/default",
-        icon: LayoutDashboard,
-      },
-      {
         id: "crm",
-        title: "CRM",
+        title: "Pipeline",
         url: "/dashboard/crm",
         icon: ChartBar,
       },
       {
-        id: "finance",
-        title: "Finance",
-        url: "/dashboard/finance",
-        icon: Banknote,
+        id: "customers",
+        title: "Customers",
+        url: "/dashboard/default",
+        icon: Users,
+      },
+      {
+        id: "kanban",
+        title: "Deal board",
+        url: "/dashboard/kanban",
+        icon: Kanban,
+      },
+      {
+        id: "tasks",
+        title: "Tasks",
+        url: "/dashboard/tasks",
+        icon: CheckSquare,
+      },
+      {
+        id: "calendar",
+        title: "Calendar",
+        url: "/dashboard/calendar",
+        icon: Calendar,
+      },
+      {
+        id: "invoice",
+        title: "Invoices",
+        url: "/dashboard/invoice",
+        icon: ReceiptText,
+      },
+    ],
+  },
+  {
+    id: 2,
+    label: "Workspace",
+    items: [
+      {
+        id: "email",
+        title: "Email",
+        url: "/dashboard/mail",
+        icon: Mail,
+      },
+      {
+        id: "chat",
+        title: "Chat",
+        url: "/dashboard/chat",
+        icon: MessageSquare,
       },
       {
         id: "analytics",
@@ -91,6 +127,53 @@ export const sidebarItems: NavGroup[] = [
         url: "/dashboard/analytics",
         icon: Gauge,
       },
+      {
+        id: "finance",
+        title: "Finance",
+        url: "/dashboard/finance",
+        icon: Banknote,
+      },
+    ],
+  },
+  {
+    id: 3,
+    label: "Team",
+    items: [
+      {
+        id: "users",
+        title: "Users",
+        url: "/dashboard/users",
+        icon: Users,
+      },
+      {
+        id: "roles",
+        title: "Roles",
+        url: "/dashboard/roles",
+        icon: Lock,
+      },
+      {
+        id: "profile",
+        title: "Profile",
+        url: "/dashboard/profile",
+        icon: UserRound,
+      },
+      {
+        id: "authentication",
+        title: "Sign in screens",
+        icon: Fingerprint,
+        subItems: [
+          { id: "auth-login-v1", title: "Login v1", url: "/auth/v1/login", newTab: true },
+          { id: "auth-login-v2", title: "Login v2", url: "/auth/v2/login", newTab: true },
+          { id: "auth-register-v1", title: "Register v1", url: "/auth/v1/register", newTab: true },
+          { id: "auth-register-v2", title: "Register v2", url: "/auth/v2/register", newTab: true },
+        ],
+      },
+    ],
+  },
+  {
+    id: 4,
+    label: "More screens",
+    items: [
       {
         id: "productivity",
         title: "Productivity",
@@ -133,86 +216,10 @@ export const sidebarItems: NavGroup[] = [
         url: "/dashboard/patient-monitoring",
         icon: HeartPulse,
       },
-    ],
-  },
-  {
-    id: 2,
-    label: "Pages",
-    items: [
-      {
-        id: "email",
-        title: "Email",
-        url: "/dashboard/mail",
-        icon: Mail,
-      },
-      {
-        id: "chat",
-        title: "Chat",
-        url: "/dashboard/chat",
-        icon: MessageSquare,
-      },
-      {
-        id: "calendar",
-        title: "Calendar",
-        url: "/dashboard/calendar",
-        icon: Calendar,
-      },
-      {
-        id: "kanban",
-        title: "Kanban",
-        url: "/dashboard/kanban",
-        icon: Kanban,
-      },
-      {
-        id: "tasks",
-        title: "Tasks",
-        url: "/dashboard/tasks",
-        icon: CheckSquare,
-      },
-      {
-        id: "invoice",
-        title: "Invoice",
-        url: "/dashboard/invoice",
-        icon: ReceiptText,
-      },
-      {
-        id: "profile",
-        title: "Profile",
-        url: "/dashboard/profile",
-        icon: UserRound,
-      },
-      {
-        id: "users",
-        title: "Users",
-        url: "/dashboard/users",
-        icon: Users,
-      },
-      {
-        id: "roles",
-        title: "Roles",
-        url: "/dashboard/roles",
-        icon: Lock,
-      },
-      {
-        id: "authentication",
-        title: "Authentication",
-        icon: Fingerprint,
-        subItems: [
-          { id: "auth-login-v1", title: "Login v1", url: "/auth/v1/login", newTab: true },
-          { id: "auth-login-v2", title: "Login v2", url: "/auth/v2/login", newTab: true },
-          { id: "auth-register-v1", title: "Register v1", url: "/auth/v1/register", newTab: true },
-          { id: "auth-register-v2", title: "Register v2", url: "/auth/v2/register", newTab: true },
-        ],
-      },
-    ],
-  },
-  {
-    id: 3,
-    label: "Legacy",
-    items: [
       {
         id: "legacy-dashboards",
-        title: "Dashboards",
+        title: "Earlier versions",
+        icon: LayoutDashboard,
         subItems: [
           { id: "legacy-default", title: "Default V1", url: "/dashboard/default-v1" },
           { id: "legacy-crm", title: "CRM V1", url: "/dashboard/crm-v1" },
@@ -220,12 +227,6 @@ export const sidebarItems: NavGroup[] = [
           { id: "legacy-analytics", title: "Analytics V1", url: "/dashboard/analytics-v1" },
         ],
       },
-    ],
-  },
-  {
-    id: 4,
-    label: "Misc",
-    items: [
       {
         id: "others",
         title: "Others",
