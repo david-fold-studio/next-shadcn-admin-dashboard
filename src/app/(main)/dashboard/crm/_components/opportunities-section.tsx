@@ -29,6 +29,7 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { useIsMobile } from "@/hooks/use-mobile";
 import { dataTableFeatures } from "@/lib/data-table-features";
 
 import { opportunitiesColumns } from "./opportunities-table/columns";
@@ -44,14 +45,28 @@ function preventPaginationNavigation(event: React.MouseEvent<HTMLAnchorElement>)
 }
 
 export function OpportunitiesSection() {
+  const isMobile = useIsMobile();
   const [rowSelection, setRowSelection] = React.useState({});
   const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>([]);
-  const [columnVisibility] = React.useState<ColumnVisibilityState>({});
+  const [columnVisibility, setColumnVisibility] = React.useState<ColumnVisibilityState>({});
   const [globalFilter, setGlobalFilter] = React.useState("");
   const [pagination, setPagination] = React.useState<PaginationState>({
     pageIndex: 0,
     pageSize: 10,
   });
+
+  React.useEffect(() => {
+    setColumnVisibility(
+      isMobile
+        ? {
+            select: false,
+            priority: false,
+            health: false,
+            actions: false,
+          }
+        : {},
+    );
+  }, [isMobile]);
 
   const table = useTable({
     features: dataTableFeatures,
@@ -68,6 +83,7 @@ export function OpportunitiesSection() {
     enableRowSelection: true,
     onRowSelectionChange: setRowSelection,
     onColumnFiltersChange: setColumnFilters,
+    onColumnVisibilityChange: setColumnVisibility,
     onGlobalFilterChange: setGlobalFilter,
     onPaginationChange: setPagination,
     globalFilterFn: "includesString",
@@ -99,9 +115,9 @@ export function OpportunitiesSection() {
             Follow Swish cleaning jobs from first inquiry through site visit, quote, and scheduling.
           </CardDescription>
           <CardAction>
-            <div className="flex items-center gap-2">
+            <div className="flex w-full flex-col gap-2 sm:w-auto sm:flex-row sm:items-center">
               <Input
-                className="h-7 w-44 md:w-52"
+                className="h-8 w-full sm:h-7 sm:w-52"
                 placeholder="Search jobs..."
                 value={searchQuery}
                 onChange={(event) => {
@@ -109,60 +125,62 @@ export function OpportunitiesSection() {
                   table.setPageIndex(0);
                 }}
               />
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <Button variant="outline" size="sm">
-                    <ListFilter data-icon="inline-start" />
-                    Stage
-                    <ChevronDownIcon data-icon="inline-end" />
-                  </Button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="end" className="w-40">
-                  <DropdownMenuRadioGroup
-                    value={stageFilter}
-                    onValueChange={(value) => {
-                      table.getColumn("stage")?.setFilterValue(value === "all" ? undefined : value);
-                      table.setPageIndex(0);
-                    }}
-                  >
-                    {stageOptions.map((option) => (
-                      <DropdownMenuRadioItem key={option} value={option}>
-                        {option === "all" ? "All stages" : option}
-                      </DropdownMenuRadioItem>
-                    ))}
-                  </DropdownMenuRadioGroup>
-                </DropdownMenuContent>
-              </DropdownMenu>
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <Button variant="outline" size="sm">
-                    <ListFilter data-icon="inline-start" />
-                    Health
-                    <ChevronDownIcon data-icon="inline-end" />
-                  </Button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="end" className="w-40">
-                  <DropdownMenuRadioGroup
-                    value={healthFilter}
-                    onValueChange={(value) => {
-                      table.getColumn("health")?.setFilterValue(value === "all" ? undefined : value);
-                      table.setPageIndex(0);
-                    }}
-                  >
-                    {healthOptions.map((option) => (
-                      <DropdownMenuRadioItem key={option} value={option}>
-                        {option === "all" ? "All health" : option}
-                      </DropdownMenuRadioItem>
-                    ))}
-                  </DropdownMenuRadioGroup>
-                </DropdownMenuContent>
-              </DropdownMenu>
+              <div className="flex items-center gap-2">
+                <DropdownMenu>
+                  <DropdownMenuTrigger asChild>
+                    <Button variant="outline" size="sm" className="flex-1 sm:flex-none">
+                      <ListFilter data-icon="inline-start" />
+                      Stage
+                      <ChevronDownIcon data-icon="inline-end" />
+                    </Button>
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent align="end" className="w-40">
+                    <DropdownMenuRadioGroup
+                      value={stageFilter}
+                      onValueChange={(value) => {
+                        table.getColumn("stage")?.setFilterValue(value === "all" ? undefined : value);
+                        table.setPageIndex(0);
+                      }}
+                    >
+                      {stageOptions.map((option) => (
+                        <DropdownMenuRadioItem key={option} value={option}>
+                          {option === "all" ? "All stages" : option}
+                        </DropdownMenuRadioItem>
+                      ))}
+                    </DropdownMenuRadioGroup>
+                  </DropdownMenuContent>
+                </DropdownMenu>
+                <DropdownMenu>
+                  <DropdownMenuTrigger asChild>
+                    <Button variant="outline" size="sm" className="flex-1 sm:flex-none">
+                      <ListFilter data-icon="inline-start" />
+                      Health
+                      <ChevronDownIcon data-icon="inline-end" />
+                    </Button>
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent align="end" className="w-40">
+                    <DropdownMenuRadioGroup
+                      value={healthFilter}
+                      onValueChange={(value) => {
+                        table.getColumn("health")?.setFilterValue(value === "all" ? undefined : value);
+                        table.setPageIndex(0);
+                      }}
+                    >
+                      {healthOptions.map((option) => (
+                        <DropdownMenuRadioItem key={option} value={option}>
+                          {option === "all" ? "All health" : option}
+                        </DropdownMenuRadioItem>
+                      ))}
+                    </DropdownMenuRadioGroup>
+                  </DropdownMenuContent>
+                </DropdownMenu>
+              </div>
             </div>
           </CardAction>
         </CardHeader>
         <CardContent className="flex flex-col gap-4 px-0">
-          <div className="overflow-hidden">
-            <Table className="**:data-[slot='table-cell']:px-4 **:data-[slot='table-head']:px-4 **:data-[slot='table-cell']:py-4">
+          <div className="overflow-x-auto">
+            <Table className="min-w-[36rem] **:data-[slot='table-cell']:px-4 **:data-[slot='table-head']:px-4 **:data-[slot='table-cell']:py-4 md:min-w-0">
               <TableHeader className="border-t **:data-[slot='table-head']:h-11 **:data-[slot='table-head']:font-medium **:data-[slot='table-head']:text-foreground **:data-[slot='table-head']:text-sm">
                 {table.getHeaderGroups().map((headerGroup) => (
                   <TableRow key={headerGroup.id}>
@@ -195,12 +213,12 @@ export function OpportunitiesSection() {
               </TableBody>
             </Table>
           </div>
-          <div className="flex items-center justify-between gap-4 px-4 pb-1">
+          <div className="flex flex-col gap-3 px-4 pb-1 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
             <p className="text-muted-foreground text-sm">
-              Viewing {visibleOpportunityCount} out of {filteredOpportunityCount.toLocaleString()} opportunities
+              Viewing {visibleOpportunityCount} out of {filteredOpportunityCount.toLocaleString()} jobs
             </p>
 
-            <Pagination className="mx-0 w-auto justify-end">
+            <Pagination className="mx-0 w-auto justify-start sm:justify-end">
               <PaginationContent className="gap-1.5">
                 <PaginationItem>
                   <PaginationPrevious

@@ -60,10 +60,14 @@ export default async function Layout({ children }: Readonly<{ children: ReactNod
               />
               <SearchDialog />
             </div>
-            <div className="flex items-center gap-2">
-              <LayoutControls />
+            <div className="flex items-center gap-1 sm:gap-2">
+              <div className="hidden sm:contents">
+                <LayoutControls />
+              </div>
               <ThemeSwitcher />
-              <GitHubRepositoriesMenu />
+              <div className="hidden md:contents">
+                <GitHubRepositoriesMenu />
+              </div>
               <AccountSwitcher users={users} />
             </div>
           </div>

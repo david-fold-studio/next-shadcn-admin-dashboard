@@ -73,7 +73,9 @@ export const opportunitiesColumns: ColumnDef<DataTableFeatures, OpportunityRow>[
   {
     accessorKey: "account",
     header: "Customer / job",
-    cell: ({ row }) => <div className="font-medium text-sm">{row.original.account}</div>,
+    cell: ({ row }) => (
+      <div className="max-w-[16rem] whitespace-normal font-medium text-sm md:max-w-none">{row.original.account}</div>
+    ),
   },
   {
     accessorKey: "stage",

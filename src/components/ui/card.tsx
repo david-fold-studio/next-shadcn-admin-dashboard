@@ -24,7 +24,9 @@ function CardHeader({ className, ...props }: React.ComponentProps<"div">) {
     <div
       data-slot="card-header"
       className={cn(
-        "group/card-header @container/card-header grid auto-rows-min items-start gap-1 rounded-t-xl px-(--card-spacing) has-data-[slot=card-action]:grid-cols-[1fr_auto] has-data-[slot=card-description]:grid-rows-[auto_auto] [.border-b]:pb-(--card-spacing)",
+        "group/card-header @container/card-header grid auto-rows-min items-start gap-1 rounded-t-xl px-(--card-spacing) has-data-[slot=card-description]:grid-rows-[auto_auto] [.border-b]:pb-(--card-spacing)",
+        // Stack title + actions on narrow cards; side-by-side only when the card is wide enough.
+        "grid-cols-1 has-data-[slot=card-action]:grid-cols-1 @min-[28rem]/card-header:has-data-[slot=card-action]:grid-cols-[1fr_auto]",
         className
       )}
       {...props}
@@ -60,7 +62,8 @@ function CardAction({ className, ...props }: React.ComponentProps<"div">) {
     <div
       data-slot="card-action"
       className={cn(
-        "col-start-2 row-span-2 row-start-1 self-start justify-self-end",
+        "col-span-full row-auto self-start justify-self-stretch",
+        "@min-[28rem]/card-header:col-span-1 @min-[28rem]/card-header:col-start-2 @min-[28rem]/card-header:row-span-2 @min-[28rem]/card-header:row-start-1 @min-[28rem]/card-header:justify-self-end",
         className
       )}
       {...props}

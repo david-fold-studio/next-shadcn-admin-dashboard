@@ -62,9 +62,9 @@ export function LeadsSection() {
           Track potential Swish customers from first inquiry to booked window washing or exterior cleaning jobs.
         </CardDescription>
         <CardAction>
-          <div className="flex items-center gap-2">
+          <div className="flex w-full flex-col gap-2 sm:w-auto sm:flex-row sm:items-center">
             <Input
-              className="h-8 w-44 md:w-56"
+              className="h-8 w-full sm:w-56"
               placeholder="Search leads..."
               value={searchQuery}
               onChange={(event) => {
@@ -74,7 +74,7 @@ export function LeadsSection() {
             />
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <Button variant="outline" size="sm">
+                <Button variant="outline" size="sm" className="w-full sm:w-auto">
                   <ListFilter data-icon="inline-start" />
                   Status
                   <ChevronDownIcon data-icon="inline-end" />
@@ -100,8 +100,8 @@ export function LeadsSection() {
         </CardAction>
       </CardHeader>
       <CardContent className="flex flex-col gap-4 px-0">
-        <div className="overflow-hidden">
-          <Table className="**:data-[slot='table-cell']:px-4 **:data-[slot='table-head']:px-4 **:data-[slot='table-cell']:py-4">
+        <div className="overflow-x-auto">
+          <Table className="min-w-[40rem] **:data-[slot='table-cell']:px-4 **:data-[slot='table-head']:px-4 **:data-[slot='table-cell']:py-4 md:min-w-0">
             <TableHeader className="border-t **:data-[slot='table-head']:h-11 **:data-[slot='table-head']:font-medium **:data-[slot='table-head']:text-foreground **:data-[slot='table-head']:text-sm">
               {table.getHeaderGroups().map((headerGroup) => (
                 <TableRow key={headerGroup.id}>
@@ -134,7 +134,7 @@ export function LeadsSection() {
             </TableBody>
           </Table>
         </div>
-        <div className="flex items-center justify-between gap-4 px-4 pb-1">
+        <div className="flex flex-col gap-3 px-4 pb-1 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
           <p className="text-muted-foreground text-sm">
             Showing {visibleCount} of {filteredCount} leads
           </p>
